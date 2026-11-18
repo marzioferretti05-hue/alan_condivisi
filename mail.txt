@@ -1,0 +1,44 @@
+scrivo per segnalarvi che è necessaria una riconsegna dei vostri fogli
+di esercizi.
+
+Vi chiederei di effettuare nuovamente la consegna rispettando
+scrupolosamente le istruzioni riportate nel form di consegna. In
+particolare, nelle istruzioni è specificato:
+
+“Trasferire qui un file PDF per ogni foglio di esercizi svolto,
+contenente la relazione finale insieme con gli output ottenuti (che
+vanno riportati esplicitamente).”
+
+Nella vostra consegna tale indicazione non è stata rispettata, in quanto
+non avete allegato una relazione finale contenente i risultati e i
+commenti richiesti. Ricordo inoltre che i commenti devono includere
+un’interpretazione dei risultati ottenuti collegata agli argomenti
+trattati a lezione, e non limitarsi a un semplice commento tecnico del
+codice implementato.
+
+Di seguito riassumo nel dettaglio gli errori riscontrati nella parte di
+codice.
+
+Sistemi Lineari
+
+    Esercizio 1: il codice non calcola correttamente la norma infinito
+per la matrice di Pascal: gli elementi fuori diagonale sono stati
+impostati a 1 invece che a -1, inoltre il ciclo parte da 1 invece che da
+0.
+
+    Esercizio 2: il codice applica la risoluzione tramite eliminazione di
+Gauss soltanto alla prima matrice, mentre era richiesto di risolvere il
+sistema per ciascuna delle matrici assegnate.
+
+    Esercizio 3: il codice non risolve il sistema per il vettore ( b )
+perturbato. Inoltre, la perturbazione è stata applicata al vettore ( Ax
+) (ottenuto dopo l’eliminazione di Gauss) invece che al vettore ( b )
+originale.
+
+Riapro quindi la possibilità di consegnare nuovamente sia il codice
+corretto sia la relazione richiesta. Per ulteriori chiarimenti non
+esitate a contattarmi.
+
+Buona serata,
+
+Daniele Pedemonte
